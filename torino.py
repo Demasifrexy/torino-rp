@@ -14,7 +14,7 @@ import time
 # ================= CONFIGURAZIONE =================
 
 HOST = "0.0.0.0"
-PORT = 8080
+PORT = 8081
 
 SERVER_NAME = "TORINO RP - EH 🇮🇹"
 CREATOR = "Disprezzare"
@@ -941,7 +941,7 @@ def main():
     except OSError as error:
         print("ERRORE: impossibile avviare il server.")
         print("Dettagli:", error)
-        print("Prova a cambiare PORT = 8080 in PORT = 8081.")
+        print("Prova a cambiare PORT = 8081 in PORT = 8081.")
         return
 
     print()
